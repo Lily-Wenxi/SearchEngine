@@ -15,3 +15,6 @@ mvn install
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  01:05 min
 [INFO] Finished at: 2020-03-10T19:10:23-04:00
+
+step3:test maven
+mvn -version
