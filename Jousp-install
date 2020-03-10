@@ -1,0 +1,17 @@
+step1: install maven 
+download the latest version from https://maven.apache.org/download.cgi
+sudo chown -R username /opt
+sudo chmod -R 755 /opt
+mv /username/Downloads/apache-maven-3.6.3 /opt/apache-maven
+export PATH=$PATH:/opt/apache-maven/bin
+
+step2:install jousp
+cd 
+git clone https://github.com/jhy/jsoup.git
+cd jsoup
+mvn install
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:05 min
+[INFO] Finished at: 2020-03-10T19:10:23-04:00
