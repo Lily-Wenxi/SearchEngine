@@ -6,6 +6,7 @@ mv /username/Downloads/apache-maven-3.6.3 /opt/apache-maven
 sudo nano /etc/paths
 export PATH=$PATH:/opt/apache-maven/bin
 enter "ctrl+x" and then enter "Y" to save and enter return to exit.
+test maven: mvn -version
 
 step2:install jousp
 cd 
@@ -17,6 +18,9 @@ mvn install
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  01:05 min
 [INFO] Finished at: 2020-03-10T19:10:23-04:00
+sudo nano /etc/path
+/Users/username/jsoup/target/jsoup-1.14.1-SNAPSHOT.jar
+save and exit
+Eclipse => choose java project => properties =>java build path => library => add external library => choose /Users/username/jsoup/target/jsoup-1.14.1-SNAPSHOT.jar
+ok,done
 
-step3:test maven
-mvn -version
